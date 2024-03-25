@@ -1,0 +1,121 @@
+html,body {
+	margin:0;
+	padding:0;
+	background: #f6f6f6;
+	scroll-behavior: smooth;
+}
+.mainContents{
+	display:flex;
+}
+.nav{
+	width:10%;
+	height : 70%;
+	float:left;
+	margin-right : 30px;
+
+}
+.reverse{
+	opacity:0.5;
+}
+.btn a{
+	margin-left:10px;
+	text-decoration: none;
+	text-align : center;
+	background-color: #D1BDA9;
+	color : white;
+	border-radius:5px;
+	padding:5px;
+}
+.section{
+	float:left;
+	width:85%;
+	height:600%;
+}
+#imgContainer {
+	position: relative;
+	z-index: 0;
+}
+
+.point {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+table {
+	text-align: center;
+	border-collapse: collapse;
+	width: 90%;
+	
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+
+#forWeather {
+	margin: 0 auto;
+}
+
+#fWeather {
+	color: #ffffff;
+}
+#place{
+	height:70vh;
+}
+#recSport{
+	height:100vh;
+	
+}
+button{
+	position : fixed;
+	bottom : 100px;
+	right : 10px;
+	border-style : none;
+}
+#list{
+	position : fixed;
+}
+.nowInfo{
+	display : inline;
+}
+.footer{
+	width:100%;
+	height:15%;
+	clear : both;
+	position : relative;
+}
+.nowInfo {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nowInfo div {
+    margin-bottom: 15px;
+}
+
+.nowInfo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.nowInfo td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.nowInfo td:first-child {
+    font-weight: bold;
+}
+.rec{
+	background-color : white;
+}

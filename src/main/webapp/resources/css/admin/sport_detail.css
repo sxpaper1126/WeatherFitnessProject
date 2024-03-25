@@ -1,0 +1,67 @@
+body {
+	background: #f5f5f5;
+}
+
+section {
+	margin: 30px 0;
+}
+
+#section_wrap {
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+h3 {
+	text-align: center;
+}
+
+.sport_detail {
+	flex-grow: 1;
+	margin-right: 20px;
+}
+.sport_detail table thead tr td{
+	padding-left:400px;
+}
+.sport_detail table tr td img {
+	margin: auto;
+	height:200px;
+	width:200px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.sport_detail table {
+	margin: auto;
+	width: 55%;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+.sport_detail table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.buttons {
+	float: right;
+	margin-right: 350px;
+	margin-top:30px;
+}
+
+.modify_sport_button, .delete_sport_button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-right: 10px;
+	bottom:20px;
+	background-color: #73685d;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.footer{
+	clear : both;
+	position : relative;
+}

@@ -1,0 +1,27 @@
+header {
+	width: 100%;
+	background-color: #BDAB99;
+}
+#header_wrap .menu ul li a:active,
+#header_wrap .menu ul li a:focus,
+#header_wrap .menu ul li a:visited {
+    text-decoration: none;
+}
+#header_wrap {
+	width: 1800px;
+	margin : auto;
+}
+.title{
+	font-size:1.5rem;
+	font-weight: bold;
+	width : 100px;
+    height : 70px;
+    margin : 10px;
+    padding : 5px;
+}
+.admin {
+	color : white;
+	text-decoration: none;
+}
+
+
